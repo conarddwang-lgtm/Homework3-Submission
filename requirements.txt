@@ -1,0 +1,56 @@
+# ============================================================
+# Week 3: Pretraining Data Collection & Voice Agents
+# ============================================================
+# Install: pip install -r requirements.txt
+#
+# SYSTEM PACKAGES (install separately):
+#   macOS:  brew install tesseract ffmpeg
+#   Ubuntu: sudo apt install tesseract-ocr ffmpeg
+# ============================================================
+
+# --- Core (inherited from previous weeks) ---
+jupyter>=1.0.0
+ipykernel>=6.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# --- Path A: Claude API ---
+anthropic>=0.40.0
+
+# --- Path B: Ollama ---
+ollama>=0.1.0
+
+# --- Week 3: Web Scraping ---
+trafilatura>=1.6.0              # Traditional web text extraction
+beautifulsoup4>=4.12.0          # HTML parsing
+crawl4ai>=0.7.0; python_version>="3.10"   # Modern LLM-ready scraper (auto-skipped on 3.9)
+# NOTE: After installing crawl4ai, run: playwright install chromium
+html2text>=2024.2.26            # HTML to Markdown fallback (used when Crawl4AI unavailable)
+nest-asyncio>=1.5.0             # Async support in Jupyter
+
+# --- Week 3: OCR & Document Extraction ---
+pytesseract>=0.3.10             # Tesseract OCR wrapper
+Pillow>=10.0.0                  # Image processing
+# surya-ocr                      # Layout-aware OCR (optional, needs torch; version conflicts with transformers)
+# marker-pdf>=1.0.0             # PDF to Markdown (optional, needs torch)
+# docling>=2.0.0                # Enterprise doc processing (optional)
+
+# --- Week 3: Speech Recognition (ASR) ---
+faster-whisper>=1.0.0           # Fast Whisper with CTranslate2
+# openai-whisper>=20231117      # Original Whisper (optional)
+soundfile>=0.12.0               # Audio file I/O
+
+# --- Week 3: Text-to-Speech (TTS) ---
+edge-tts>=6.1.0                 # Free Microsoft TTS (no API key)
+# kokoro>=0.9.0                 # Local high-quality TTS (optional)
+
+# --- Week 3: Data Cleaning ---
+datasketch>=1.6.0               # MinHash deduplication
+langdetect>=1.0.9               # Language detection
+
+# --- Week 3: Voice Agent (Optional) ---
+# pipecat-ai>=0.0.40            # Voice agent framework (optional)

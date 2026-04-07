@@ -1,0 +1,15 @@
+{
+  "cleaned_texts": [
+    "Hello! Contact us at [EMAIL] or call [PHONE]. Your credit card [CREDIT_CARD] was declined. This message is intended only for the recipient. Visit our site for more.",
+    "Python 3.14 introduces several improvements including better error messages. Learn more on the official site.",
+    "Large Language Models are transforming the AI landscape with few-shot capabilities."
+  ],
+  "stats": {
+    "input_count": 10,
+    "after_lang_filter": 7,
+    "after_dedup": 5,
+    "after_quality": 3,
+    "output_count": 3,
+    "removal_rate": 0.7
+  }
+}

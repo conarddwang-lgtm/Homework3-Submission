@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Your Pre-trained Diffusion Model Secretly Knows Restoration",
+    "abstract": "Pre-trained diffusion models have enabled significant advancements in All-in-One Restoration (AiOR), offering improved perceptual quality and generalization. However, diffusion-based restoration methods primarily rely on fine-tuning or Control-Net style modules to leverage the pre-trained diffusion model's priors for AiOR. In this work, we show that these pre-trained diffusion models inherently possess restoration behavior, which can be unlocked by directly learning prompt embeddings at the output of the text encoder. Interestingly, this behavior is largely inaccessible through text prompts and text-token embedding optimization. Furthermore, we observe that naive prompt learning is unstable because the forward noising process using degraded images is misaligned with the reverse sampling trajectory. To resolve this, we train prompts within a diffusion bridge formulation that aligns training and inference dynamics, enforcing a coherent denoising path from noisy degraded states to clean images. Building on these insights, we introduce our lightweight learned prompts on the pre-trained WAN video model and FLUX image models, converting them into high-performing restoration models. Extensive experiments demonstrate that our approach achieves competitive performance and generalization across diverse degradations, while avoiding fine-tuning and restoration-specific control modules.",
+    "url": "http://arxiv.org/abs/2604.04924v1",
+    "authors": [
+      "Sudarshan Rajagopalan",
+      "Vishal M. Patel"
+    ]
+  },
+  {
+    "title": "How AI Aggregation Affects Knowledge",
+    "abstract": "Artificial intelligence (AI) changes social learning when aggregated outputs become training data for future predictions. To study this, we extend the DeGroot model by introducing an AI aggregator that trains on population beliefs and feeds synthesized signals back to agents. We define the learning gap as the deviation of long-run beliefs from the efficient benchmark, allowing us to capture how AI aggregation affects learning. Our main result identifies a threshold in the speed of updating: when the aggregator updates too quickly, there is no positive-measure set of training weights that robustly improves learning across a broad class of environments, whereas such weights exist when updating is sufficiently slow. We then compare global and local architectures. Local aggregators trained on proximate or topic-specific data robustly improve learning in all environments. Consequently, replacing specialized local aggregators with a single global aggregator worsens learning in at least one dimension of the state.",
+    "url": "http://arxiv.org/abs/2604.04906v1",
+    "authors": [
+      "Daron Acemoglu",
+      "Tianyi Lin",
+      "Asuman Ozdaglar",
+      "James Siderius"
+    ]
+  },
+  {
+    "title": "Connection between the contextuality breaking and incompatibility breaking qubit channels",
+    "abstract": "Contextuality and measurement incompatibility are two fundamental aspects of nonclassicality, and their manifestations in observed quantum correlations are often deeply interconnected. Recently, measurement incompatibility has been studied in connection with nonlocality, particularly in terms of their robustness under various quantum channels. This line of investigation helps establish a connection between the channels that break nonlocality and those that break incompatibility. In this study, we focus on an asymmetric bipartite Bell scenario involving three and four inputs on Alice and Bob sides, respectively, with each of these inputs having dichotomous outcomes. Under the assumption of locality, the observed statistics in this asymmetric scenario obeys the Elegant Bell inequality (EBI). Here, we use a different version of the EBI that relies on the assumption of the preparation noncontextuality. By taking the violation of this noncontextual version of EBI as a witness of preparation contextuality we establish a connection between the channels that break contextuality and the channels that break triple-wise measurement incompatibility. Our results suggest that any channel which breaks EBI contextuality will also break Clauser-Horne-Shimony-Holt (CHSH) nonlocality; however, the reverse does not hold. We also show that a depolarising channel that breaks N-wise incompatibility can also break a certain form of contextuality, witnessed by a generalised inequality involving N measurements on one wing of a bipartite Bell scenario.",
+    "url": "http://arxiv.org/abs/2604.04899v1",
+    "authors": [
+      "Swati Kumari",
+      "Sumit Mukherjee",
+      "R. Prabhu"
+    ]
+  },
+  {
+    "title": "Topological surface states revealed by the Zeeman effect in superconducting UTe2",
+    "abstract": "Intrinsic topological superconductors with protected boundary modes obeying non-Abelian statistics constitute a vanishingly small class of quantum materials. A defining spectroscopic signature of such phases is the presence of in-gap topological surface states (TSS). However, despite extensive theoretical proposals, their unambiguous experimental identification has remained elusive. Here we use vector magnetic-field scanning tunnelling microscopy to obtain direct spectroscopic evidence of TSS in the spin-triplet superconductor UTe2. Atomic-scale spectroscopy reveals striking site-dependent superconductivity: Te sites host a large in-gap density of states that nearly fills the superconducting gap, whereas neighboring atomic sites remain gapped. Upon application of a magnetic field, the in-gap states on the Te sites are selectively suppressed, yielding a spatially homogeneous superconducting state with a markedly deeper gap relative to zero field. This site-selective gap evolution is in quantitative agreement with theoretical predictions for TSS in UTe2 that possess dominant Te-orbital character. Spectral-function calculations incorporating the Zeeman coupling reproduce the observed magnetic-field response. Our results provide a spectroscopic fingerprint of the long-sought TSS in superconductors and establish UTe2 as a compelling system for exploring intrinsic topological superconductivity.",
+    "url": "http://arxiv.org/abs/2604.04883v1",
+    "authors": [
+      "Zhen Zhu",
+      "Hans Christiansen",
+      "Yudi Huang",
+      "Kaiming Liu",
+      "Zheyu Wu",
+      "Shanta R. Saha",
+      "Johnpierre Paglione",
+      "Alexander G. Eaton",
+      "Andrej Cabala",
+      "Michal Vališka",
+      "Rafael M. Fernandes",
+      "Andreas Kreisel",
+      "Brian M. Andersen",
+      "Vidya Madhavan"
+    ]
+  },
+  {
+    "title": "Boltzmann-Loschmidt dispute reloaded quantum 150 years later",
+    "abstract": "The Boltzmann-Loschmidt dispute of 1876 questioned the possibility of a statistical irreversible description by time reversible classical equations of motion of atoms. Here we show analytically and numerically that the quantum chaos diffusion of cold atoms, or ions, in a harmonic trap and pulsed optical lattice can be inverted back in time with up to 100\\% efficiency. This is in sharp contrast to classical evolution where exponentially small errors break time reversibility. We argue that the existing experimental skills allow highlighting the Boltzmann-Loschmidt dispute from a quantum perspective.",
+    "url": "http://arxiv.org/abs/2604.04879v1",
+    "authors": [
+      "Leonardo Ermann",
+      "Alexei D. Chepelianskii",
+      "Dima L. Shepelyansky"
+    ]
+  },
+  {
+    "title": "Driving Quantum Heat Engines Beyond Classical Limits through Multilevel Coherence",
+    "abstract": "Quantum coherence provides a controllable thermodynamic resource that can raise or lower the effective temperature of a cavity mode, enabling efficiency tuning in quantum heat engines. Here, we derive analytic expressions for the effective engine temperature, demonstrating the enhanced temperature tunability achievable via $N$-level ground-state coherence. We further unify ground- and excited-state coherence within a single analytic framework, revealing their interplay as a mechanism for thermodynamic control. Such quantum resources serve as tunable parameters that enable switching between heating, cooling, and cancellation regimes, driving the effective temperature from near-zero to divergence. Ultimately, our framework connects and generalizes previous models of quantum heat engines, and we identify rubidium atoms as a promising candidate for experimentally realizing these coherence-assisted effects.",
+    "url": "http://arxiv.org/abs/2604.04873v1",
+    "authors": [
+      "Hui Wang",
+      "Yusef Maleki",
+      "William J. Munro",
+      "Marlan O. Scully"
+    ]
+  },
+  {
+    "title": "Measurement of the galaxy-velocity power spectrum of DESI tracers with the kinematic Sunyaev-Zeldovich effect using DESI DR2 and ACT DR6",
+    "abstract": "Joint analyses of high-resolution CMB temperature maps with galaxy surveys provide a unique way to reconstruct the radial velocity field of the underlying matter distribution via the kinematic Sunyaev-Zeldovich (kSZ) effect. Using data from the Atacama Cosmology Telescope (ACT) DR6 and the Dark Energy Spectroscopic Instrument (DESI) DR2, we present radial velocity reconstructions for luminous red galaxies (LRGs), emission-line galaxies (ELGs), and quasars (QSOs). Leveraging the spectroscopic data, we are able to reliably model the foreground contamination and report a negligible impact on our main observables. We detect the velocity-galaxy cross-correlation at $17.0σ$ for LRGs, and for the first time, at $8.3σ$ for ELGs and $6.8σ$ for QSOs. We further report the first detection of the velocity-velocity correlation using LRGs at $3.1σ$, as well as the highest cumulative detection of the kSZ effect to date at $20.8 σ$. Similarly to previous results, we find a lower amplitude of the kSZ signal compared to our fiducial halo model prediction and electron profile assuming a Battaglia profile. Combining these new observables, we obtain constraints on local-type primordial non-Gaussianity (PNG): $f_{\\rm NL}^{\\rm loc} = 15.9_{-34.4}^{+34.6}$ at 68\\% confidence, which represents the tightest constraint to date derived from the velocity field. The measurements presented here already exhibit lower noise on a per-mode basis than the galaxy auto-correlation on the largest scales, $k<0.004~\\rm{Mpc^{-1}}$, highlighting the key role these observables will play in the context of future CMB experiments such as the Simons Observatory.",
+    "url": "http://arxiv.org/abs/2604.04867v1",
+    "authors": [
+      "Edmond Chaussidon",
+      "Selim C. Hotinli",
+      "Simone Ferraro",
+      "Kendrick Smith",
+      "Xinyi Chen",
+      "J. Aguilar",
+      "S. Ahlen",
+      "D. Bianchi",
+      "D. Brooks",
+      "T. Claybaugh",
+      "A. Cuceu",
+      "A. de la Macorra",
+      "B. Dey",
+      "P. Doel",
+      "A. Font-Ribera",
+      "J. E. Forero-Romero",
+      "E. Gaztañaga",
+      "S. Gontcho A Gontcho",
+      "G. Gutierrez",
+      "J. Guy",
+      "H. K. Herrera-Alcantar",
+      "K. Honscheid",
+      "C. Howlett",
+      "D. Huterer",
+      "M. Ishak",
+      "R. Joyce",
+      "D. Kirkby",
+      "A. Kremin",
+      "O. Lahav",
+      "M. Landriau",
+      "L. Le Guillou",
+      "M. Manera",
+      "A. Meisner",
+      "R. Miquel",
+      "S. Nadathur",
+      "J. A. Newman",
+      "N. Palanque-Delabrouille",
+      "W. J. Percival",
+      "F. Prada",
+      "I. Pérez-Ràfols",
+      "G. Rossi",
+      "L. Samushia",
+      "E. Sanchez",
+      "D. Schlegel",
+      "M. Schubnell",
+      "H. Seo",
+      "J. Silber",
+      "D. Sprayberry",
+      "G. Tarlé",
+      "B. A. Weaver",
+      "C. Yèche",
+      "R. Zhou"
+    ]
+  },
+  {
+    "title": "Failure of the strong feasible disjunction property",
+    "abstract": "A propositional proof system $P$ has the strong feasible disjunction property iff there is a constant $c \\geq 1$ such that whenever $P$ admits a size $s$ proof of $\\bigvee_i α_i$ with no two $α_i$ sharing an atom then one of $α_i$ has a $P$-proof of size $\\le s^c$.   It was proved by K. (2025) that no proof system strong enough admits this property assuming a computational complexity conjecture and a conjecture about proof complexity generators. Here we build on Ilango (2025) and Ren et al. (2025) and prove the same result under two purely computational complexity hypotheses:   - there exists a language in class E that requires exponential size circuits even if they are allowed to query an NP oracle,   - there exists a P/poly demi-bit in the sense of Rudich (1997).",
+    "url": "http://arxiv.org/abs/2604.04830v1",
+    "authors": [
+      "Jan Krajicek"
+    ]
+  }
+]

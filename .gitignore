@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Week 3: Large generated files
+outputs/*.mp3
+outputs/*.wav
+outputs/*.png
+*.bin
+*.pt
+*.onnx
+.DS_Store
