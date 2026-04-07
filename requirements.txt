@@ -35,7 +35,7 @@ nest-asyncio>=1.5.0             # Async support in Jupyter
 # --- Week 3: OCR & Document Extraction ---
 pytesseract>=0.3.10             # Tesseract OCR wrapper
 Pillow>=10.0.0                  # Image processing
-# surya-ocr                      # Layout-aware OCR (optional, needs torch; version conflicts with transformers)
+easyocr>=1.7.0                   # PyTorch-based OCR (80+ languages, replaces surya-ocr)
 # marker-pdf>=1.0.0             # PDF to Markdown (optional, needs torch)
 # docling>=2.0.0                # Enterprise doc processing (optional)
 

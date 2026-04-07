@@ -17,7 +17,7 @@ The homework is updated for 2025-2026 with modern tools: Crawl4AI for LLM-ready 
 ## Learning Objectives
 
 1. Extract clean text from web pages using trafilatura and Crawl4AI
-2. Perform OCR on images and PDFs with Tesseract, Surya, Marker, and Docling
+2. Perform OCR on images and PDFs with Tesseract, EasyOCR, Marker, and Docling
 3. Transcribe audio using faster-whisper with model size trade-offs
 4. Build a data cleaning pipeline with MinHash deduplication and PII removal
 5. Synthesize speech with edge-tts and Kokoro TTS
@@ -46,7 +46,7 @@ The homework is updated for 2025-2026 with modern tools: Crawl4AI for LLM-ready 
 
 ## Prerequisites
 
-- Python 3.9+
+- Python 3.11+
 - ffmpeg (for audio processing)
 - tesseract (for OCR)
 
@@ -113,7 +113,7 @@ Homework3-Submission/
 │   ├── utils.py                          # Formatting, reflection helpers
 │   ├── prompt_templates.py               # CO-STAR framework
 │   ├── scraping_utils.py                 # Web scraping (trafilatura, Crawl4AI)
-│   ├── ocr_utils.py                      # OCR (Tesseract, Surya, Marker, Docling)
+│   ├── ocr_utils.py                      # OCR (Tesseract, EasyOCR, Marker, Docling)
 │   ├── audio_utils.py                    # ASR (faster-whisper) + TTS (Kokoro, edge-tts)
 │   └── data_pipeline.py                  # Data cleaning (dedup, PII, quality)
 ├── outputs/                              # Auto-created by notebooks
@@ -218,7 +218,7 @@ pip install docling      # For Docling
 
 ### OCR & Document Extraction
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
-- [Surya OCR](https://github.com/VikParuchuri/surya)
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 - [Marker PDF](https://github.com/VikParuchuri/marker)
 - [Docling (IBM)](https://github.com/DS4SD/docling)
 
